@@ -1,7 +1,7 @@
 
 def reverse(a,i):
 	if(i>=0):
-            print a[i]
+            print "a[" +i+"]"+ a[i]
             i=i-1
             reverse(a,i)
         else:
